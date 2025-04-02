@@ -6,4 +6,3 @@ list = input('Введите элементы списка, разделив и�
 paragraph = list.split()
 for ind, el in enumerate(paragraph, 1):
     print(f'{ind} : {el:.10}')
-
